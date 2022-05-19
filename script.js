@@ -2,8 +2,8 @@
 // @name         Reddit Download Saved Images
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Download a user's saved images
-// @author       You
+// @description  Download your Reddit account's saved images
+// @author       Andrew Tong
 // @match        https://old.reddit.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        GM_download
