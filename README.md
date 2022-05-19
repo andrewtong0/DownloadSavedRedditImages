@@ -4,6 +4,7 @@ Automatically download images from your saved Reddit posts from specified subred
 ### Requirements
 - Tampermonkey Web Extension
 - Compatible Browser (e.g. Chrome, Firefox, Safari)
+- A Reddit account with saved image posts to be downloaded
 
 ### Installation
 
