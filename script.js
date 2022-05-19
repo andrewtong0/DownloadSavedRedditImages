@@ -13,6 +13,7 @@
 
 const validSubreddits = [];
 const downloadsFolderName = "Reddit Saved Images";
+const shouldUnsaveDownloadedPosts = true;
 
 
 (function() {
@@ -24,7 +25,7 @@ const downloadsFolderName = "Reddit Saved Images";
         if (!isPostValid(currPost)) continue;
         const imgNameAndUrl = getImgNameAndUrl(currPost);
         saveImg(getPostSubreddit(currPost), imgNameAndUrl.name, imgNameAndUrl.url);
-        unsavePost(currPost);
+        if (shouldUnsaveDownloadedPosts) unsavePost(currPost);
     }
 })();
 
