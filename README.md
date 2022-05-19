@@ -20,7 +20,7 @@ Automatically download images from your saved Reddit posts from specified subred
 
 ### Usage
 
-1. Visit your saved posts on Old Reddit (https://old.reddit.com/user/YOUR_USERNAME_HERE/saved).
+1. Visit your saved posts on Old Reddit (https://old.reddit.com/user/YOUR_USERNAME_HERE/saved). Note that New Reddit will *NOT* work with this script.
 2. (Optional) If using RES, scroll down to load posts to download (the script only downloads posts currently loaded in the browser).
 3. Right click anywhere in the browser, hover over the "Tampermonkey" option, and click the "Reddit Download Saved Images" script.
 4. All saved posts that were loaded in the browser should now be downloaded into their respective subreddit folders.
